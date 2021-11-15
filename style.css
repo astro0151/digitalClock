@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+  background-color: black;
+  color: white;
+  height: 402px;
+  width: 313px;
+  border: 6px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px 42px 5px 42px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+#days {
+  margin: 20px;
+  font-size: 60px;
+  color: blue;
+  border: 4px white;
+  word-spacing: 10px;
+  text-shadow: 4px 4px 5px rgba(255, 0, 0, 0.6);
+}
+#timeContainer {
+  margin: 20px;
+  display: flex;
+}
+.dateContainer {
+  display: flex;
+  margin: 20px;
+}
+#hour {
+  margin: 10px;
+  font-size: 40px;
+  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.6);
+}
+#blinker-1 {
+  /* margin: 3px; */
+  font-size: 50px;
+  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.6);
+}
+#minute {
+  margin: 10px;
+  font-size: 40px;
+  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.6);
+}
+#blinker-2 {
+  /* margin: 3px; */
+  font-size: 50px;
+  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.6);
+}
+#second {
+  color: red;
+  font-size: 60px;
+  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.6);
+}
+#periods {
+  margin: 10px;
+  font-size: 40px;
+  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.6);
+}
+#date {
+  margin: 10px;
+  font-size: 40px;
+  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.6);
+}
+#month {
+  margin: 10px;
+  font-size: 40px;
+  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.6);
+}
+#year {
+  margin: 10px;
+  font-size: 40px;
+  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.6);
+}
