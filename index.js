@@ -1,10 +1,3 @@
-// setInterval(() => {
-//   console.log(new Date());
-// }, 1000).then;
-// setTimeout(function () {
-//   console.log(dateObj);
-// }, 1000);
-
 let clock = () => {
   setInterval(() => {
     let dateObject = new Date();

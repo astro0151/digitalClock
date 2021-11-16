@@ -32,7 +32,7 @@ body {
   color: blue;
   border: 4px white;
   word-spacing: 10px;
-  text-shadow: 4px 4px 5px rgba(255, 0, 0, 0.6);
+  text-shadow: 4px 4px 5px rgba(0, 0, 255, 0.6);
 }
 #timeContainer {
   margin: 20px;
@@ -50,7 +50,6 @@ body {
 #blinker-1 {
   /* margin: 3px; */
   font-size: 50px;
-  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.6);
 }
 #minute {
   margin: 10px;
@@ -60,7 +59,6 @@ body {
 #blinker-2 {
   /* margin: 3px; */
   font-size: 50px;
-  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.6);
 }
 #second {
   color: red;
